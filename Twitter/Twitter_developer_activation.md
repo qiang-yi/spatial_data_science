@@ -33,7 +33,8 @@ Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ![](../image/twitter/home.jpg)
 
-Step 2: Activate Developer Account
+** Step 2: Activate Developer Account
+
 2.1 When you have signed in the Developer Portal using your Twitter account, you'll need to answer a few questions to get the Essential access. Please select 'No' for "Will you make Twitter content or derived information available to a government entity or a government affiliated entity?".
 
 ![](../image/twitter/developer.jpg)
