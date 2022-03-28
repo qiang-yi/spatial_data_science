@@ -1,3 +1,6 @@
+<body style="background-color:grey;">
+
+
 ## Spatial Data Science (GIS6307/GEO4930)
 
 ---
@@ -96,7 +99,7 @@ Agree the Developer agreement & policy and click `Submit.`
 
 ![](../image/twitter/agree.jpg)
 
-If you are lucky enough, your application will be approved immediately and you will see `You have Elevated access` in the Developer Portal.
+If you are lucky enough, your application will be approved immediately and you will see "You have Elevated access" in the Developer Portal.
 
 ![](../image/twitter/access.jpg)
 
@@ -108,4 +111,4 @@ Later, you'll receive an email asking for more details. Just write a few sentenc
 
 ![](../image/twitter/email3.jpg)
 
-You may receive additional emails for your application. Just provide the details they ask for. Eventually, you will receive an email informing the approval of your Elevated Access. 
+You may receive additional emails for your application. Just provide the details they ask for. Eventually, you will receive an email informing the approval of your Elevated Access.
