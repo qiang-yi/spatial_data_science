@@ -63,26 +63,7 @@ Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ![](../image/twitter/keys.jpg)
 
-After you have saved the API keys and tokens, click `Test an endpoint`.
-
-2.6 Test an endpoint.
-Click an sample Tweet in the left, and then copy and paste the request in the right to a text pad.
-
-![](../image/twitter/endpoint.jpg)
-
-Replace `<BEAR TOKEN>` with the bear token you have saved (You can copy and paste to replace it).
-
-![](../image/twitter/text.jpg)
-
-Then, copy the request with replaced Bearer Token, and paste it to Anaconda Prompt. Press `Enter` in your keyboard
-
-Your Developer account is successfully activated if you see the sample Tweet text appears in the Prompt.
-
-![](../image/twitter/prompt.jpg)
-
-2.8 If you lost your API keys and tokens, you can re-generate them in the Developer Portal, under `Projects & Apps`.
-
-![](../image/twitter/regenerate.jpg)
+After you have saved the API keys and tokens, click `Skip to dashboard`.
 
 ## Step 3. Activate Elevated Access
 After completing Step 2, you have obtained the Essential Access in the Developer Portal. Next, you will apply for the Elevated Access to gain more advanced features in the Twitter APIs, including accessing geotagged tweets.
