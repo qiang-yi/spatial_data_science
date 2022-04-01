@@ -16,7 +16,7 @@ Instructor: Yi Qiang (qiangy@usf.edu)<br>
 Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ## 1. Step 1: Register an Twitter Account
-1.1 Go to the website of Twitter Developer Platform: [developer.twitter.com](developer.twitter.com). Click `Sign-up`.
+1.1 Go to the website of Twitter Developer Platform: [developer.twitter.com](developer.twitter.com).
 
 ![](../../image/twitter/fig1.jpg)
 
@@ -42,9 +42,9 @@ Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ![](../image/twitter/developer.jpg)
 
-2.2 You need to add a phone number to your Twitter account if you haven't done it before. Enter the verification code to verify your phone number. When your phone is added, go back to the basic questions.
+2.2 You need to add both a phone number and email to your account if you haven't. Enter the verification code to verify your phone number/email. When your phone/email is added, go back to the basic questions.
 
-  You may need to refresh the webpage after adding the phone number.
+  You may need to refresh the webpage after adding the phone number/email.
 
 ![](../image/twitter/phone.jpg)
 
@@ -59,18 +59,18 @@ Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ![](../image/twitter/made.jpg)
 
-2.5 Now, your API keys and tokens are generated. These keys are like password for your Python program to access your Twitter account. Please save the **API key, API Key Secrete and Bearer Token** in a text file or Word document, and keep it secret. Don't worry if you lost them. You can always re-generate them in your Developer Portal.
+2.5 Now, your API keys and tokens are generated. These keys are like password for your program to interact with the Twitter APIs. Please save the **API key, API Key Secrete and Bearer Token** in a text file or Word document for later use. Don't worry if you lost them. You can always re-generate them in the Developer Portal.
 
 ![](../image/twitter/keys.jpg)
 
 After you have saved the API keys and tokens, click `Skip to dashboard`.
 
 ## Step 3. Activate Elevated Access
-After completing Step 2, you have obtained the Essential Access in the Developer Portal. Next, you will apply for the Elevated Access to gain more advanced features in the Twitter APIs, including accessing geotagged tweets.
+After completing Step 2, you have obtained the Essential Access in the Developer Portal. Next, you will apply for the Elevated Access to gain more advanced features of the Twitter APIs.
 
 3.1 In the Developer Portal, click `Product` -> `Twitter API v2` -> `Elevated` -> `Apply for Elevated`. Fill Basic info and then click `Next`.
 
-Write a few of sentences to describe how you plan to use Twitter data and/or APIs. You can modify the following description to claim you will study a topic of your interest (e.g. the topic could be any sport events, natural disasters, political events, or culture...). Please do not submit the identical description. Twitter may find it out and disapprove your application.
+Write a few of sentences to describe how you plan to use Twitter data and/or APIs. You can modify the following description to claim you will study a topic of your interest (e.g. the topic could be any sport events, natural disasters, political events, or culture...). 3-4 sentences should be enough. Please do not submit the identical description. Twitter may detect it and ask more questions.
 
 ![](../image/twitter/intended_use.jpg)
 
@@ -88,8 +88,8 @@ Sometimes, you will see "Your application for Elevated access is pending".
 
 ![](../image/twitter/access2.jpg)
 
-Later, you'll receive an email asking for more details. Just write a few sentences to answer the first two questions, and answer "not applicable" for the other questions. For the second question, you may say that "**I will create maps or conduct analysis of Tweets aggregated in countries/states/counties. I will not display or publish Tweets at individual/row level by any means**".
+Later, you'll receive an email from Twitter asking for more details. The following figure shows an example of the email. Just write a few sentences to answer the first two questions, and answer "not applicable" for the other questions. For the second question, you may say that "**I will create maps or conduct analysis of Tweets aggregated in countries/states/counties. I will not display or publish Tweets at individual/row level by any means**".
 
 ![](../image/twitter/email3.jpg)
 
-You may receive additional emails for your application. Just provide the details they ask for. Eventually, you will receive an email informing the approval of your Elevated Access.
+You may receive additional emails for your application. Just provide more to respond to their questions. Eventually, you will receive an email informing the approval of your Elevated Access.
