@@ -59,7 +59,7 @@ Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ![](../image/twitter/made.jpg)
 
-2.5 Now, your API keys and tokens are generated. These keys are like password for your program to interact with the Twitter APIs. Please save the **API key, API Key Secrete and Bearer Token** in a text file or Word document for later use. Don't worry if you lost them. You can always re-generate them in the Developer Portal.
+2.5 Now, your API keys and tokens are generated. These keys are like password for your program to interact with the Twitter APIs. Please save the **API key and API Key Secrete** (we don't use Bearing Token) in a text file or Word document for later use. Don't worry if you lost them. You can always re-generate them in the Developer Portal.
 
 ![](../image/twitter/keys.jpg)
 
