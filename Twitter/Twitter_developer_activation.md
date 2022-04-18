@@ -16,7 +16,7 @@ Instructor: Yi Qiang (qiangy@usf.edu)<br>
 Teaching Assistant: Jinwen Xu (jinwenxu@usf.edu)
 
 ## 1. Step 1: Register an Twitter Account
-1.1 Go to the website of Twitter Developer Platform: [developer.twitter.com](developer.twitter.com).
+1.1 Go to the website of Twitter Developer Platform: [developer.twitter.com](https://developer.twitter.com).
 
 ![](../../image/twitter/fig1.jpg)
 
