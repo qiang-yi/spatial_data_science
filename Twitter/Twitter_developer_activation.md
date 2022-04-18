@@ -80,7 +80,7 @@ Agree the Developer agreement & policy and click `Submit.`
 
 ![](../image/twitter/agree.jpg)
 
-If you are lucky enough, your application will be approved immediately and you will see "You have Elevated access" in the Developer Portal.
+If you are lucky enough, your application will be approved immediately and you may see "You have Elevated access" in the Developer Portal.
 
 ![](../image/twitter/access.jpg)
 
