@@ -1,0 +1,4 @@
+200305141159   0     1     0lila C:\usgs_ned\working\calc2 = C:\usgs_ned\working\usgs_ned
+200409131859   0     0    83goody    copy /rd1/qaqc/downloads/danny/ned/ned_cnty_grids/ned29 /rd1/qaqc/finaldata/county/hillsborough/ned29
+200502011721   0     0    92sam copy /rd1/qaqc/finaldata/county/hillsborough/ned29 /rd1/qaqc/finaldata/county/hillsborough_core/ned29
+200510201856   0     0    93goody     copy /tmpraid/fgdl/county/hillsborough/hillsborough_core/ned29 /tmpraid/fgdl/zips/county/hillsborough/hillsborough_core/ned2

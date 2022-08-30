@@ -1,0 +1,314 @@
+<HTML>
+<HEAD>
+<STYLE>
+               .pre { color: black; font-size: 12pt; font-weight: normal; font-family: courier; }
+        </STYLE>
+</HEAD>
+<BODY>
+<strong>FLORIDA GEOGRAPHIC DATA LIBRARY DOCUMENTATION</strong><br />
+<strong>VERSION 2005</strong>
+<p>
+<strong>TITLE: U.S. GEOLOGICAL SURVEY NATIONAL ELEVATION DATASET</strong>
+</p>
+<pre>
+Geodataset Name:       NED    
+Geodataset Feature:    GRID
+</pre>
+<strong>GENERAL DESCRIPTION:</strong>
+<pre>
+<table width="60%">
+<tr>
+<td>
+This dataset contains the U.S. Geological Survey National Elevation Dataset (NED) for the state of Florida.
+</td>
+</tr>
+</table>
+</pre>
+<pre>
+DATA SOURCE(S):                    U.S. Geological Survey (USGS), EROS Data Center
+SCALE OF ORIGINAL SOURCE MAPS:     N/A
+DATE OF AUTOMATION OF SOURCE:      1999
+GEODATASET EXTENT:                 State of Florida
+</pre>
+<P>
+<strong>FEATURE ATTRIBUTE TABLES:</strong>
+</P>
+<pre>Datafile Name: NED.VAT</pre>
+<table width="75%" cellspacing="0" cellpadding="0" border="0">
+<tr align="left">
+<td> ITEM NAME </td>
+<td>WIDTH</td>
+<td>TYPE</td>
+</tr>
+<tr>
+<td>
+<DIV align="left">OBJECTID
+</DIV>
+</td>
+<td>4</td>
+<td>OID</td>
+</tr>
+<tr>
+<td>
+<DIV align="left">VALUE
+</DIV>
+</td>
+<td>0</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td>
+<DIV align="left">COUNT
+</DIV>
+</td>
+<td>0</td>
+<td>Double</td>
+</tr>
+</table>
+<p>
+<strong>FEATURE ATTRIBUTE TABLES CODES AND VALUES:</strong>
+</p>
+<P />
+<table width="65%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="25%">Item<pre></pre></td>
+<td>Item Description<pre></pre></td>
+</tr>
+<tr valign="top">
+<td>OBJECTID</td>
+<td>
+Internal feature number.<table>
+<tr>
+<td>
+</td>
+</tr>
+</table>
+<br />
+</td>
+</tr>
+<tr valign="top">
+<td>VALUE</td>
+<td>
+Cell value: equals actual elevation<table>
+<tr>
+<td>
+</td>
+</tr>
+</table>
+<br />
+</td>
+</tr>
+<tr valign="top">
+<td>COUNT</td>
+<td>
+Number of cells for each value<table>
+<tr>
+<td>
+</td>
+</tr>
+</table>
+<br />
+</td>
+</tr>
+</table>
+<strong>USER NOTES:</strong>
+<br />
+<table width="60%">
+<tr>
+<td>
+GeoPlan relied on the integrity of the attribute information within the original data.
+</td>
+</tr>
+</table>
+<br />
+<table width="60%">
+<tr>
+<td>
+The NED is a seamless mosaic of best-available elevation data. The 7.5-minute elevation data for the conterminous United States are the primary initial source data. In addition to the availability of complete 7.5-minute data, efficient processing methods were developed to filter production artifacts in the existing data, convert to the NAD83 datum, edge-match, and fill slivers of missing data at quadrangle seams. One of the effects of the NED processing steps is a much-improved base of elevation data for calculating slope and hydrologic derivatives. The specifications for the NED 1 arc second and 1/3 arc second data are: Geographic coordinate system Horizontal datum of NAD83, except for AK which is NAD27 Vertical datum of NAVD88, except for AK which is NAVD29 Z units of meters.<br /><br />
+Only 24 Metadata records are currently included in the Dynamic Metadata. The bounding coordinates requested include more than 24 records so this metadata is the generic metadata for the whole dataset.<br /><br />
+</td>
+</tr>
+</table>
+<table width="60%">
+<tr>
+<td>
+<pre>
+A note concerning data scale:
+
+Scale is an important factor in data usage. Certain scale 
+datasetsare not suitable for some project, analysis, or
+modelling purposes. Please be sure you are using the best
+available data.
+
+1:24000 scale datasets are recommended for projects that 
+are at the county level.
+
+1:24000 data should NOT be used for high accuracy base 
+mapping such as property parcel boundaries.
+
+1:100000 scale datasets are recommended for projects that 
+are at the multi-county or regional level.
+
+1:250000 scale datasets are recommended for projects that 
+are at the regional or state level or larger.
+
+Vector datasets with no defined scale or accuracy should 
+be considered suspect. Make sure you are familiar with 
+your data before using it for projects or analyses. Every 
+effort has been made to supply the user with data 
+documentation. For additional information, see the 
+References sectionand the Data Source Contact section of 
+this documentation. For more information regarding scale 
+and accuracy, see our web pages at:
+
+<a href="http://www.geoplan.ufl.edu/education.html">http://www.geoplan.ufl.edu/education.html</a></pre>
+</td>
+</tr>
+</table>
+<strong>REFERENCES: </strong>
+<table width="60%">
+<tr>
+<td>
+<pre>
+U.S. Geological Survey:
+http://gisdata.usgs.net/ned/
+</pre>
+</td>
+</tr>
+</table>
+<strong>DATA LINEAGE SUMMARY: </strong>
+<br /><br />
+<table width="60%">
+<tr>
+<td>
+<pre>
+The 7.5-minute elevation data for the conterminous United States are the 
+primary initial source data. In addition to the availability of complete 7.5-minute 
+data, efficient processing methods were developed to filter production artifacts 
+in the existing data, convert to the NAD83 datum, edge-match, and fill slivers 
+of missing data at quadrangle seams.
+Process Date: Unknown
+<br />
+Counties with high pixel values:
+
+1. Clay (ned10)
+	range 0-90
+	2 pixels = 255
+
+2. Duval (ned16)
+	range 0-57
+	3 pixels = 255
+
+3. Escambia (ned17)
+	range 0-103
+	12 pixels = 254
+	110 pixels = 255
+
+4. Layfayette (ned34)
+	range 0-55
+	7 pixels = 255
+
+5. Pinellas (ned52)
+	range 0-30
+	1 pixel = 255
+
+6. Santa Rosa (ned57)
+	range 0-90
+	2 pixels = 254
+	22 pixels = 255
+
+The six counties with abberrant values were processed to 
+eliminate the spikes in the data. Each GRID was visually 
+inspected to identify where the pixel values of 255 were 
+located.  In each GRID, the high values were in the ocean 
+and were surrounded by pixel values of zero on each side.  
+Therefore, the pixel values of 255 were reclassified to zero.
+
+Counties with an irregular area:
+(looks like higher resolution quads)
+
+1. Calhoun (ned07)
+
+2. Dixie (ned15)
+
+3. Gilchrist (ned21) 
+
+4. Layfayette (ned34)
+
+5. Madison (ned40)
+
+6. Suwannee (ned61)
+Process Date: 20030000
+<br />
+</pre>
+</td>
+</tr>
+</table>
+<strong>MAP PROJECTION PARAMETERS: </strong>
+<br />
+<pre>
+Projection                          ALBERS
+Datum                               HPGN
+Units                               METERS
+Spheroid                            GRS1980
+1st Standard Parallel               24  0  0.000
+2nd Standard Parallel               31 30  0.000
+Central Meridian                   -84 00  0.000
+Latitude of Projection's Origin     24  0  0.000
+False Easting (meters)              400000.00000
+False Northing (meters)             0.00000
+</pre>
+<p>
+<strong>DATA SOURCE CONTACT (S):</strong>
+</p>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<pre>
+Name:
+Abbr. Name:
+Address:
+
+
+Phone:
+
+Web site:
+E-mail:
+Contact Person:
+         Phone:
+        E-mail:
+</pre>
+</td>
+<td valign="top"><pre>EROS Data Center
+USGS NED
+U.S. Geological Survey EROS Data Center
+Sioux Falls, SD
+57198
+605-594-6151
+<br />
+http://gisdata.usgs.net/ned/
+custserv@edcmail.cr.usgs.gov
+Customer Services Representative
+</pre>
+</td>
+</tr>
+</table>
+<strong>FGDL CONTACT:</strong>
+<pre>
+Name:                   FLORIDA GEOGRAPHIC DATA LIBRARY
+Abbr. Name:             FGDL
+Address:                Florida Geographic Data Library
+                        431 Architecture Building
+                        PO Box 115706
+                        Gainesville, FL  32611-5706
+Web site:               <a href="http://www.fgdl.org">http://www.fgdl.org</a>
+
+Contact FGDL: 
+
+      Technical Support:	        <a href="http://www.fgdl.org/fgdlfeed.html">http://www.fgdl.org/fgdlfeed.html</a>
+      FGDL Frequently Asked Questions:  <a href="http://www.fgdl.org/fgdlfaq.html">http://www.fgdl.org/fgdlfaq.html</a>
+      FGDL Mailing Lists:		<a href="http://www.fgdl.org/fgdl-l.html">http://www.fgdl.org/fgdl-l.html</a>
+      For FGDL Software:                <a href="http://www.fgdl.org/software.html">http://www.fgdl.org/software.html</a>
+</pre>
+</BODY>
+</HTML>
